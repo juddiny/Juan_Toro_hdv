@@ -21,25 +21,20 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
-
     <!-- *******************************************+ -->
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="container-lg">
+    <div id="pdf-content" class="container-lg">
         <div class="row shadow-lg rounded-4 overflow-hidden">
             <!-- Columna Izuierda -->
             <div class="col-md-4 bg-primary text-white p-4">
                 <header class="text-center mb-1">
                     <img src="img/Foto_perfil.jpg"
                     class="img-fluid rounded-circle border border-4 border-white mb-3"
-                    alt="Foto de perfil"
-                    >
-
+                    alt="Foto de perfil">
                     <h1 class="fw-bold mb-1">Juan David Toro</h1>
                     <h2 class="h5">Analista de Datos</h2>
                 </header>
@@ -83,12 +78,109 @@
 
             </div>
             <!-- Columna Derecha -->
-
-
+            <div class="col-md-8 bg-ligth p-4">
+                <div>
+                    <section class="mb-3">
+                        <h4 class="fw-bold text-primary">
+                            <i class="fas fa-briefcase me-2 "></i>
+                            Experiencia Laboral
+                        </h4>
+                        <div class="card">
+                            <div class="car-body">
+                                <h4 class="car-title fw-bold">
+                                    Analista de Datos
+                                </h4>
+                                <p class="card-subtitle text-muted mb-2 small">
+                                    2021 - Actualidad
+                                </p>
+                                <h6 class="text-primary">
+                                    Konecta Group
+                                </h6>
+                                <ul class="mt-3">
+                                    <li>Visualización de datos</li>
+                                    <li>Creación de modelos analíticos tanto </li>
+                                    <li>Generación de Insights relevantes para el negocio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-3">
+                        <div class="card">
+                            <div class="car-body">
+                                <h4 class="car-title fw-bold">
+                                    Consultor Analitycs
+                                </h4>
+                                <p class="card-subtitle text-muted mb-2 small">
+                                    2020 - 2021
+                                </p>
+                                <h6 class="text-primary">
+                                    Konecta Group
+                                </h6>
+                                <ul class="mt-3">
+                                    <li>Generación de Dashboard.</li>
+                                    <li>Consultoria a clientes.</li>
+                                    <li>Generación de Insights relevantes para el negocio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div>
+                    <section class="mb-3">
+                        <h4 class="fw-bold text-primary">
+                            <i class="fas fa-briefcase me-2 "></i>
+                            Educación
+                        </h4>
+                        <div class="card">
+                            <div class="car-body">
+                                <h4 class="car-title fw-bold">
+                                    Ingeniero en Informática
+                                </h4>
+                                <p class="card-subtitle text-muted mb-2 small">
+                                    2024 - Actualidad
+                                </p>
+                                <h6 class="text-primary">
+                                    Universidad de Caldas
+                                </h6>
+                                <ul class="mt-3">
+                                    <li>Programación web</li>
+                                    <li>Creación de modelos analíticos tanto </li>
+                                    <li>Generación de Insights relevantes para el negocio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-3">
+                        <div class="card">
+                            <div class="car-body">
+                                <h4 class="car-title fw-bold">
+                                    Consultor Analitycs
+                                </h4>
+                                <p class="card-subtitle text-muted mb-2 small">
+                                    2020 - 2021
+                                </p>
+                                <h6 class="text-primary">
+                                    Konecta Group
+                                </h6>
+                                <ul class="mt-3">
+                                    <li>Generación de Dashboard.</li>
+                                    <li>Consultoria a clientes.</li>
+                                    <li>Generación de Insights relevantes para el negocio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>    
+            
         </div>
     </div>
-
-
-    
+    <div class="text-center my-3">
+        <button onclick="downloadPDF()" class="btn btn-outline-primary">
+            Descargar PDF
+        </button>
+    </div>
+    <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
