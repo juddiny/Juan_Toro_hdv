@@ -3,35 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
-
-    <!-- *******************************************+ -->
-    <!-- Bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- *******************************************+ -->
-
+    <title>Juan David Toro - Analista de Datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div id="pdf-content" class="container-lg">
-        <div class="row shadow-lg rounded-4 overflow-hidden">
-            <!-- Columna Izuierda -->
-            <div class="col-md-4 bg-primary text-white p-4">
-                <header class="text-center mb-1">
+<body>    
+    <div id="pdf-content" class="container-lg p-0">
+    <div class="row shadow-lg m-0" style="border-radius: 0;">
+        <!-- Columna Izquierda - Reducir padding -->
+        <div class="col-md-4 bg-primary text-white p-3" style="position: relative; overflow: visible; padding-top: 5px !important;">
+            <header class="text-center" style="margin-top: 0; padding-top: 0;">
                     <img src="img/Foto_perfil.jpg" 
                     class="border border-4 border-white mb-3" 
                     style="width: 150px; height: 150px; border-radius: 50% / 60%; object-fit: cover;"
@@ -39,45 +23,54 @@
                     <h1 class="fw-bold mb-1 fs-3 fs-md-4 fs-lg-5">Juan David Toro</h1>
                     <h2 class="h5 fw-bold">Analista de Datos</h2>
                 </header>
+                
                 <!-- Contacto -->
-                <section class="mb-2">
+                <section class="mb-1">
                     <h5 class="fw-bold">
                         <i class="fa-solid fa-address-card mb-3 me-3"></i>
                         Contacto
                     </h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="https://wa.me/57025290790?text=Hola,%20te%20me%20a%20interesa%20tu%20perfil."
+                        <li class="mb-1">
+                            <a href="https://wa.me/57025290790?text=Hola,%20estoy%20interesado%20en%20tu%20perfil%20profesional."
                             class="text-white"
                             target="_blank"
                             >
                             <i class="fa-brands fa-whatsapp me-2"></i>
-                            +57 3025290790
+                            +57 302 529 0790
                             </a>
                         </li>
-                        <li class="mb-2">
+                        <li class="mb-1">
                             <a href="mailto:judatobed@gmail.com" class="text-white" target="_blank">
-                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-solid fa-envelope me-2"></i>
                             judatobed@gmail.com
                             </a>
                         </li>
-                        <li class="mb-2">
+                        <li class="mb-1">
                             <a href="https://www.linkedin.com/in/toro-data-analyst"
                             class="text-white"
                             target="_blank"
-                            rel="noopener noreferrer">  <!-- Mejora seguridad -->
-                            <i class="fa-brands fa-linkedin"></i>
-                            www.linkedin.com/in/toro-data-analyst
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin me-2"></i>
+                            Perfil LinkedIn
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="https://github.com/juddiny"
+                            class="text-white"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-github me-2"></i> <!-- Cambiado a icono de GitHub -->
+                            Repositorio GitHub (juddiny)
                             </a>
                         </li>
                     </ul>
-                
                 </section>
-                <!--Habilidades-->
-                <section class="mb-2">
+                <!-- Habilidades -->
+                <section class="mb-1">
                     <h5 class="fw-bold">
                         <i class="fa-solid fa-gear mb-3 me-3"></i>
-                        Habilidades
+                        Habilidades Técnicas
                     </h5>
                     <ul class="list-unstyled">
                         <li class="mb-3">
@@ -89,7 +82,7 @@
                                 <span>90%</span>
                             </div>
                             <div class="progress" style="height: 8px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%"></div>
                             </div>
                         </li>
                         <li class="mb-3">
@@ -101,19 +94,19 @@
                                 <span>85%</span>
                             </div>
                             <div class="progress" style="height: 8px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 85%"></div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <div class="d-flex justify-content-between">
                                 <span>
                                     <i class="fa-solid fa-check me-2"></i>
-                                    Programación en Python
+                                    Python para Análisis
                                 </span>
                                 <span>80%</span>
                             </div>
                             <div class="progress" style="height: 8px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 80%"></div>
                             </div>
                         </li>
                         <li class="mb-3">
@@ -125,141 +118,238 @@
                                 <span>75%</span>
                             </div>
                             <div class="progress" style="height: 8px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 75%"></div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <div class="d-flex justify-content-between">
                                 <span>
                                     <i class="fa-solid fa-check me-2"></i>
-                                    Creación de Dashboards
+                                    LookerStudio
                                 </span>
                                 <span>70%</span>
                             </div>
                             <div class="progress" style="height: 8px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li class="mb-3">
-                            <div class="d-flex justify-content-between">
-                                <span>
-                                    <i class="fa-solid fa-check me-2"></i>
-                                    Consultoría a Clientes
-                                </span>
-                                <span>65%</span>
-                            </div>
-                            <div class="progress" style="height: 8px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 70%"></div>
                             </div>
                         </li>
                     </ul>
                 </section>
-
+                                <!-- Habilidades Blandas -->
+                <section class="mb-3">
+                    <h5 class="fw-bold">
+                        <i class="fa-solid fa-users mb-3 me-3"></i> <!-- Icono de equipo -->
+                        Habilidades Blandas
+                    </h5>
+                    <ul class="list-unstyled">
+                        <!-- Atención al cliente -->
+                        <li class="mb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-comments text-info me-2"></i> <!-- Icono de comunicación -->
+                                <span>
+                                    <strong>Atención al cliente</strong>: Resolución de consultas técnicas, 
+                                    traduciendo insights complejos a lenguaje accesible.
+                                </span>
+                            </div>
+                        </li>
+                        
+                        <!-- Comunicación -->
+                        <li class="mb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-bullhorn text-info me-2"></i> <!-- Icono de presentación -->
+                                <span>
+                                    <strong>Comunicación efectiva</strong>: Capacidad para presentar hallazgos técnicos a equipos 
+                                    multidisciplinarios y alta dirección.
+                                </span>
+                            </div>
+                        </li>
+                        
+                        <!-- Estadística -->
+                        <li class="mb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-chart-pie text-info me-2"></i> <!-- Icono estadístico -->
+                                <span>
+                                    <strong>Pensamiento estadístico</strong>: Interpretación de tests de hipótesis, correlaciones 
+                                    y significancia práctica de los datos.
+                                </span>
+                            </div>
+                        </li>
+                        
+                        <!-- Otras habilidades relevantes -->
+                        <li class="mb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-lightbulb text-info me-2"></i> <!-- Icono de pensamiento -->
+                                <span>
+                                    <strong>Resolución de problemas</strong>: Enfoque estructurado para descomponer problemas 
+                                    complejos.
+                                </span>
+                            </div>
+                        </li>
+                        
+                        <li class="mb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-people-arrows text-info me-2"></i> <!-- Icono de colaboración -->
+                                <span>
+                                    <strong>Trabajo en equipo</strong>: Colaboración efectiva con equipos de TI.
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
             </div>
-            <!-- Columna Derecha -->
-            <div class="col-md-8 bg-ligth p-4">
-                <div>
-                    <section class="mb-3">
-                        <h4 class="fw-bold text-primary">
-                            <i class="fas fa-briefcase me-2 "></i>
-                            Experiencia Laboral
-                        </h4>
-                        <div class="card">
-                            <div class="car-body">
-                                <h4 class="car-title fw-bold">
-                                    Analista de Datos
-                                </h4>
-                                <p class="card-subtitle text-muted mb-2 small">
-                                    2021 - Actualidad
-                                </p>
-                                <h6 class="text-primary">
-                                    Konecta Group
-                                </h6>
-                                <ul class="mt-3">
-                                    <li>Visualización de datos</li>
-                                    <li>Creación de modelos analíticos tanto </li>
-                                    <li>Generación de Insights relevantes para el negocio</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="mb-3">
-                        <div class="card">
-                            <div class="car-body">
-                                <h4 class="car-title fw-bold">
-                                    Consultor Analitycs
-                                </h4>
-                                <p class="card-subtitle text-muted mb-2 small">
-                                    2020 - 2021
-                                </p>
-                                <h6 class="text-primary">
-                                    Konecta Group
-                                </h6>
-                                <ul class="mt-3">
-                                    <li>Generación de Dashboard.</li>
-                                    <li>Consultoria a clientes.</li>
-                                    <li>Generación de Insights relevantes para el negocio</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div>
-                    <section class="mb-3">
-                        <h4 class="fw-bold text-primary">
-                            <i class="fas fa-briefcase me-2 "></i>
-                            Educación
-                        </h4>
-                        <div class="card">
-                            <div class="car-body">
-                                <h4 class="car-title fw-bold">
-                                    Ingeniero en Informática
-                                </h4>
-                                <p class="card-subtitle text-muted mb-2 small">
-                                    2024 - Actualidad
-                                </p>
-                                <h6 class="text-primary">
-                                    Universidad de Caldas
-                                </h6>
-                                <ul class="mt-3">
-                                    <li>Programación web</li>
-                                    <li>Creación de modelos analíticos tanto </li>
-                                    <li>Generación de Insights relevantes para el negocio</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="mb-3">
-                        <div class="card">
-                            <div class="car-body">
-                                <h4 class="car-title fw-bold">
-                                    Consultor Analitycs
-                                </h4>
-                                <p class="card-subtitle text-muted mb-2 small">
-                                    2020 - 2021
-                                </p>
-                                <h6 class="text-primary">
-                                    Konecta Group
-                                </h6>
-                                <ul class="mt-3">
-                                    <li>Generación de Dashboard.</li>
-                                    <li>Consultoria a clientes.</li>
-                                    <li>Generación de Insights relevantes para el negocio</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>    
             
+            <!-- Columna Derecha -->
+            <div class="col-md-8 bg-light p-2">
+                <!-- Experiencia -->
+                <section class="mb-2">
+                    <h4 class="fw-bold text-primary">
+                        <i class="fas fa-briefcase me-2"></i>
+                        Experiencia Profesional
+                    </h4>
+                    
+                    <!-- Experiencia 1 -->
+                    <div class="card mb-3 border-primary">
+                        <div class="card-body p-3">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4 class="card-title fw-bold text-primary">Analista de Datos Semi-Senior </h4>
+                                    <h6 class="text-muted">Konecta Group | 2021 - Actualidad</h6>
+                                </div>
+                                <span class="badge bg-primary rounded-pill">Data Science</span>
+                            </div>
+                            
+                            <div class="mt-2">
+                                <h6 class="fw-bold">Contribuciones Clave:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        Desarrollo de modelos predictivos para optimización de indicadores de negocio claves que afectaban la facturación en su factor de desempeño
+                                    </li>
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        Automatización de procesos ETL que redujeron tiempos de generación de reportes en 40%
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="mt-2">
+                                <h6 class="fw-bold">Tecnologías Utilizadas:</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark border">Python (Pandas, NumPy)</span>
+                                    <span class="badge bg-light text-dark border">Power BI</span>
+                                    <span class="badge bg-light text-dark border">SQL Server</span>
+                                    <span class="badge bg-light text-dark border">Azure</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Experiencia 2 -->
+                    <div class="card border-primary">
+                        <div class="card-body p-3">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4 class="card-title fw-bold text-primary">Consultor Analytics</h4>
+                                    <h6 class="text-muted">Konecta Group | 2020 - 2021</h6>
+                                </div>
+                                <span class="badge bg-primary rounded-pill">Business Intelligence</span>
+                            </div>
+                            
+                            <div class="mt-2">
+                                <h6 class="fw-bold">Logros Destacados:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        Implementación de solución BI que redujo 20 horas semanales en generación de reportes
+                                    </li>
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        Diseño de modelos descriptivos para análisis de comportamiento de clientes
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="mt-2">
+                                <h6 class="fw-bold">Herramientas:</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark border">Tableau</span>
+                                    <span class="badge bg-light text-dark border">Google Data Studio</span>
+                                    <span class="badge bg-light text-dark border">Excel Avanzado</span>
+                                    <span class="badge bg-light text-dark border">SQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Educación -->
+                <section class="mb-2">
+                    <h4 class="fw-bold text-primary">
+                        <i class="fas fa-graduation-cap me-2"></i>
+                        Formación Académica
+                    </h4>
+                    
+                    <!-- Educación 1 -->
+                    <div class="card mb-3 border-primary">
+                        <div class="card-body p-3">
+                            <h4 class="card-title fw-bold">Ingeniería en Informática</h4>
+                            <p class="card-subtitle text-muted mb-1 fs-7">Universidad de Caldas | 2024 - Actualidad</p>
+                            <div class="mt-2">
+                                <h6 class="fw-bold text-primary">Enfoque Principal:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-circle-notch text-primary me-2 small"></i>
+                                        Ciencia de Datos y Analítica Avanzada
+                                    </li>
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-circle-notch text-primary me-2 small"></i>
+                                        Inteligencia Artificial Aplicada
+                                    </li>
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-circle-notch text-primary me-2 small"></i>
+                                        Arquitectura de Sistemas de Información
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Educación 2 -->
+                    <div class="card mb-3 border-primary">
+                        <div class="card-body p-3">
+                            <h4 class="card-title fw-bold">Técnico en Desarrollo de Software</h4>
+                            <p class="card-subtitle text-muted mb-1 fs-7">SENA | 2018 - 2019</p>
+                            
+                            <div class="mt-2">
+                                <h6 class="fw-bold text-primary">Competencias Técnicas:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-circle-notch text-primary me-2 small"></i>
+                                        Desarrollo de aplicaciones web
+                                    </li>
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-circle-notch text-primary me-2 small"></i>
+                                        Gestión de bases de datos relacionales
+                                    </li>
+                                    <li class="mb-1 fs-7">
+                                        <i class="fas fa-circle-notch text-primary me-2 small"></i>
+                                        Fundamentos de programación en Python y Java
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div style="height: 10px; visibility: hidden;"></div>
         </div>
     </div>
     <div class="text-center my-3">
         <button onclick="downloadPDF()" class="btn btn-outline-primary">
-            Descargar PDF
+            <i class="fas fa-download me-2"></i>Descargar PDF
         </button>
     </div>
-    <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
