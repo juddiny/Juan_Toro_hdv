@@ -13,7 +13,7 @@ function downloadPDF() {
         },
         jsPDF: {
             unit: 'mm',
-            format: 'a4',
+            format: 'a3',
             orientation: 'portrait'
         }
     };
